@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/*Styles*/
+
+/*Force autoadjustment of the divs*/
+* {
+    box-sizing: border-box;
+}
+
+/*center page vertically*/
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit';
+    margin: 0px;
+}
+
+/*center content vertically*/
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/*Card*/
+.qr_card {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 320px;
+    padding: 16px;
+    box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
+
+img {
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: hsl(218, 44%, 22%);
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    text-align: center;
+
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 24px;
+}
+
+
+/*main*/
+.attribution {
+    margin: 30px
+}
+
+/*Responsive atributes*/
+@media (max-width: 375px) {
+    main {
+        height: auto;
+        margin-top: 85px;;
+    }
+}
