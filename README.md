@@ -18,9 +18,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Screenshot
 
 QR code desktop:
+
 ![qr_code_desktop](./design/desktop.png)
 
 QR code responsive (mobile):
+
 ![qr_code_responsive](./design/mobile.png)
 
 ### Links
